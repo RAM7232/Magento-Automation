@@ -6,6 +6,4 @@ Feature: User Sign-In Functionality
     When the user clicks on the "Sign In" button
     And the user enters valid login credentials
     And the user submits the login form
-   #Then the user should be redirected to the "My Account" dashboard
-    #And the page should display "Welcome, Test User!"
  

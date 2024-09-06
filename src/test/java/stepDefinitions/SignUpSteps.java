@@ -18,16 +18,16 @@ public class SignUpSteps {
 
     @Given("the user is on the homepage")
     public void the_user_is_on_the_homepage() throws IOException {
-        // Load config.properties
+        
         FileInputStream fileInput = new FileInputStream("src/test/resources/config.properties");
         prop.load(fileInput);
 
-        // Initialize WebDriver and navigate to the URL
+  
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(prop.getProperty("url"));
 
-        // Initialize SignUpPage
+    
         signUpPage = new SignUpPage(driver);
     }
 
@@ -50,7 +50,7 @@ public class SignUpSteps {
     public void the_user_enters_valid_sign_up_details() {
         signUpPage.enterFirstName("Test");
         signUpPage.enterLastName("User");
-        signUpPage.enterEmail("testuser10909@yopmail.com");
+        signUpPage.enterEmail("testuser10909998@yopmail.com");
         signUpPage.enterPassword("Password123");
         signUpPage.enterConfirmPassword("Password123");
     }
