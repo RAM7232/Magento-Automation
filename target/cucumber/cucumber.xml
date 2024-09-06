@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.306">
+    <testcase classname="User Sign-In Functionality" name="User successfully signs in to their account" time="14.024">
+        <system-out><![CDATA[Given the user is on the magento homepage...................................passed
+When the user clicks on the "Sign In" button................................passed
+And the user enters valid login credentials.................................passed
+And the user submits the login form.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
